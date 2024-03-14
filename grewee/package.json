@@ -3,12 +3,18 @@
   "displayName": "grewee",
   "description": "Grewee colorscheme based on School Of Athens painting by Raphael",
   "version": "0.0.1",
+	"author": "Salledelavage (https://github.com/grosheth)",
   "engines": {
     "vscode": "^1.87.0"
   },
+  "icon": "images/grewee-colors.png",
   "categories": [
     "Themes"
   ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/grosheth/grewee-colorsheme-vscode"
+	},
   "contributes": {
     "themes": [
       {
@@ -17,5 +23,8 @@
         "path": "./themes/grewee-colorscheme-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.24.0"
   }
 }
